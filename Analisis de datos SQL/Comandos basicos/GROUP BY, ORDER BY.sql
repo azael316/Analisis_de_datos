@@ -1,0 +1,12 @@
+--SELECT Gender, COUNT(Gender) FROM EmployeeDemographics GROUP BY Gender--Agrupa por los valores de gender y debe imprimir su columna y tal vez estadística al respecto como conteos
+--SELECT Gender, Age, COUNT(Gender) FROM EmployeeDemographics GROUP BY Gender, Age--Imprime ademas la columna age y da la cantidad de hombres y mujeres de cada edadSELECT Gender, COUNT(Gender) FROM EmployeeDemographics GROUP BY Gender
+--SELECT Gender, COUNT(Gender) FROM EmployeeDemographics WHERE Age > 31 GROUP BY Gender
+--SELECT Gender, COUNT(Gender) AS CountGender FROM EmployeeDemographics WHERE Age > 31
+--GROUP BY Gender
+--SELECT * FROM EmployeeDemographics ORDER BY Age
+--SELECT * FROM EmployeeDemographics ORDER BY Age DESC
+--SELECT * FROM EmployeeDemographics ORDER BY Age, Gender
+--SELECT * FROM EmployeeDemographics ORDER BY Age DESC, Gender
+--SELECT * FROM EmployeeDemographics ORDER BY 4 DESC
+--SELECT Gender, COUNT(Gender) AS CountGender FROM EmployeeDemographics WHERE Age > 31
+--GROUP BY Gender ORDER BY CountGender DESC
